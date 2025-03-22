@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anirudh Patil - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <h1>Anirudh Patil</h1>
+        <p>Electronics & Computer Engineer</p>
+        <img src="anirudh.png" alt="Profile Picture" height="200" width="200">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="education" class="animated-card">
+        <h4>Education</h4>
+        <div class="education-item">
+            <ul>
+                <li><strong>SSC</strong> - Late P.S.Patil Vidyalaya, Tamabave</li>
+                <li><strong>HSC</strong> - Vidyamandir Junior Highschool, Islamour</li>
+                <li><strong>Diploma</strong> - Electronics & Telecommunication, Government Polytechnic, Karad</li>
+                <li><strong>BTECH</strong> - Rajarambapu Institute of Technology, Islampur</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="animated-card">
+        <h4>Technical Skills</h4>
+        <div class="skill-list">
+            <div class="skill-item">
+                <p>Python <span class="skill-percent">90%</span></p>
+                <div class="skill-progress" style="--progress: 90%"></div>
+            </div>
+            <div class="skill-item">
+                <p>C++ <span class="skill-percent">85%</span></p>
+                <div class="skill-progress" style="--progress: 85%"></div>
+            </div>
+            <div class="skill-item">
+                <p>HTML/CSS <span class="skill-percent">95%</span></p>
+                <div class="skill-progress" style="--progress: 95%"></div>
+            </div>
+        </div>
+
+        <h4>Hobbies</h4>
+        <div class="hobby-list">
+            <ul>
+                <li>Coding</li>
+                <li>Swimming</li>
+                <li>Cricket</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="animated-card">
+        <h4>Contact</h4>
+        <div class="contact-list">
+            <ul>
+                <li>Phone: <a href="tel:+91XXXXXXXXXX">+91 XXX XXX XXXX</a></li>
+                <li>Email: <a href="mailto:patilanirudha124@gmail.com">patilanirudha124@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+                <li>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+
+    <footer>
+        <p>© <span id="year"></span> Anirudh Patil | Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
